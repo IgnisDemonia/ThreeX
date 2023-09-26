@@ -41,10 +41,8 @@ func SolveCubic(a, b, c, d float64) CubicSolution {
 }
 
 func main() {
-	a := 1.0
-	b := -6.0
-	c := 11.0
-	d := -6.0
+	var a, b, c, d float64
+	fmt.Scan(&a, &b, &c, &d)
 
 	solutions := SolveCubic(a, b, c, d)
 
